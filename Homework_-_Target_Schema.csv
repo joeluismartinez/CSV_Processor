@@ -1,0 +1,2 @@
+Provider Name,CampaignID,Cost Per Ad Click,Redirect Link,Phone Number,Address,Zipcode
+"Type: String, Non Nullable","String, Non-Nullable","Type: Float, Non-Nullable","Type: String, Non-Nullable","Type: String, Nullable","Type: String, Non-Nullable","Type: String, Non-Nullable"
