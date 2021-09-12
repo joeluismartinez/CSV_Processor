@@ -13,4 +13,6 @@ the script to pull from a cloud provider service like AWS S3.
  be great to pass in a schema type file and have the script detect it and check
  cast data accordingly. This would greatly increase the scripts flexibility.
 
-- Implement more tests for edge cases and other scenarios I haven't thought of. 
+- Implement more tests for edge cases and other scenarios I haven't thought of.
+
+- Using Docker to deploy this would be great for managing python dependecies.

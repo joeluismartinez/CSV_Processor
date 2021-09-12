@@ -16,11 +16,14 @@ for a specific schema and datatypes cast, but can be expanded in the future
 to receive any schema csv file and update datatype casts accordingly.
 
 # Requirements
-This script uses Python 3.9.7 and
-Pandas and Pytest are required to run the scripts and test:
+This script uses Python 3.8.2 but should work on Python 3.9.
+Pandas and Pytest are required to run the scripts and test.
+To install see below:
 
 - https://pandas.pydata.org/docs/getting_started/install.html
+- pip install pandas
 - https://docs.pytest.org/en/6.2.x/getting-started.html
+- pip install pytest
 
 # How to get started 
 
