@@ -1,0 +1,8 @@
+,Provider Name,CampaignID,Cost Per Ad Click,Redirect Link,Phone Number,Address,Zipcode
+0,Auto R' Us,AUTO1,15.0,autorus.com/auto1,8675309.0,Burton Street,78702
+1,SafeAuto,AUTO2,15.0,safeauto.com/auto2,8675309.0,Bat Street,78702
+2,OddAutos,AUTO3,5.0,oddautos.com/auto3,8675309.0,Tiger King Rd,78702
+4,LowCostCoverage,AUTO4,15.5,lcc.com/auto4,4592222.0,Christmas Town,78702
+6,Home R' Us,HOME,5.0,homerus.com,1234567.0,Tim Street,78705
+7,HomeGuard,HOME1,5.5,homeguard.com,1234567.0,Tam Street,78705
+10,Homes4U,HOME5,6.0,homes4u.com,1234567.0,North Pole,78705

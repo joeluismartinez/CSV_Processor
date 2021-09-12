@@ -15,18 +15,17 @@ In the root directory there is a target schema. Right now the code works
 for a specific schema and datatypes cast, but can be expanded in the future 
 to receive any schema csv file and update datatype casts accordingly.
 
+# Requirements
+This script uses Python 3.9.7
+Pandas and Pytest are required to run the scripts and test:
+
+- https://pandas.pydata.org/docs/getting_started/install.html
+- https://docs.pytest.org/en/6.2.x/getting-started.html
 
 # How to get started 
 
-This program comes with a virtual venv for all dependencies. 
-To get started follow the instructions below. 
-
-- Clone repod down
-- Navigate to directory in which repo is in
-- (For Mac) source venv/bin/activate
-- (For Windows Powershell) \venv\Scripts\Activate.ps1
-
-Once virtual env is active running the following command:
+Once pandas and pytest is install you can run the script with 
+the following command below:
 
 - Python3 main.py
 
@@ -43,17 +42,6 @@ function is working correctly.
 
 Test can be run with the following command:
 
-- pytest
+- pytest or python3 -m pytest
 
 Expected outputs will be passes or failures
-
-# Exiting Virtual Env
-
-To exit virtual env run the following command:
-
-- deactivate venv
-
-
-
-
-
