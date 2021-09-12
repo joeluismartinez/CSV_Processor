@@ -25,3 +25,10 @@ def missing_values_check(missing=0, results=0):
         print(f"Error! offending rows do not meet specificaitons:\n\n{results.loc[missing]}\n")
     else:
         print("No missing data detected.\n")
+
+
+def cast_datatypes(results, schema_cols):
+    ''' Take results and schema_cols arguments and cast it to correct data types and returns it out '''
+    results[schema_cols] = results[schema_cols].astype(str)
+    results["Cost Per Ad Click"] = results["Cost Per Ad Click"].astype(float)
+    return results

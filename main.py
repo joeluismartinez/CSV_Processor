@@ -38,10 +38,9 @@ missing_values_check(missing, results)
 results = results.dropna()
 
 # Cast to correct datatype
-results[schema_cols] = results[schema_cols].astype(str)
-results["Cost Per Ad Click"] = results["Cost Per Ad Click"].astype(float)
+final_results = cast_datatypes(results, schema_cols)
 
 # Datatype check and log out before final CSV processing.
-print(f"Datatype check:\n\n{results.dtypes}\n")
-print(f"Final output before write:\n\n{results}\n")
-results.to_csv('results.csv')
+print(f"Datatype check:\n\n{final_results.dtypes}\n")
+print(f"Final output before write:\n\n{final_results}\n")
+final_results.to_csv('results.csv')
