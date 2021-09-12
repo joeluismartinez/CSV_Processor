@@ -16,7 +16,7 @@ for a specific schema and datatypes cast, but can be expanded in the future
 to receive any schema csv file and update datatype casts accordingly.
 
 # Requirements
-This script uses Python 3.9.7
+This script uses Python 3.9.7 and
 Pandas and Pytest are required to run the scripts and test:
 
 - https://pandas.pydata.org/docs/getting_started/install.html
