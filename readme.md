@@ -30,7 +30,7 @@ To install see below:
 Once pandas and pytest is install you can run the script with 
 the following command below:
 
-- Python3 main.py
+- python3 main.py
 
 After the script completes we should see a clean and merged 
 CSV titled results.csv
