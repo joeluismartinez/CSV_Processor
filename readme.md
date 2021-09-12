@@ -43,7 +43,7 @@ function is working correctly.
 
 Test can be run with the following command:
 
-pytest
+- pytest
 
 Expected outputs will be passes or failures
 
@@ -51,7 +51,7 @@ Expected outputs will be passes or failures
 
 To exit virtual env run the following command:
 
-deactivate venv
+- deactivate venv
 
 
 
